@@ -1,0 +1,112 @@
+﻿<!-- Cart Modal -->
+<div id="cartModal" class="modal hidden">
+    <div class="modal-content cart-modal">
+        <div class="modal-header">
+            <h3 class="modal-title">Giỏ hàng của bạn</h3>
+            <button id="closeCartModal" class="modal-close">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div id="cartItems" class="cart-items">
+            <!-- Cart items will be loaded here -->
+        </div>
+        <div class="cart-footer">
+            <div class="cart-total">
+                <span class="total-label">Tổng cộng:</span>
+                <span id="cartTotal" class="total-amount">0đ</span>
+            </div>
+            <div class="voucher-section">
+                <label class="form-label">Mã giảm giá</label>
+                <div class="voucher-input">
+                    <input type="text" id="voucherCode" placeholder="Nhập mã giảm giá" class="form-input">
+                    <button id="applyVoucher" class="voucher-btn">Áp dụng</button>
+                </div>
+                <div id="voucherMessage" class="voucher-message"></div>
+            </div>
+            <button id="checkoutBtn" class="checkout-btn">Thanh toán</button>
+        </div>
+    </div>
+</div>
+
+<!-- Checkout Modal -->
+<div id="checkoutModal" class="modal hidden">
+    <div class="modal-content checkout-modal">
+        <div class="modal-header">
+            <h3 class="modal-title">Thanh toán</h3>
+            <button id="closeCheckoutModal" class="modal-close">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="checkout-grid">
+            <!-- Shipping Info -->
+            <div class="shipping-section">
+                <h4 class="section-subtitle">Thông tin giao hàng</h4>
+                <form id="checkoutForm" class="form">
+                    <div class="form-group">
+                        <label class="form-label">Họ tên</label>
+                        <input type="text" id="shippingName" class="form-input" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Số điện thoại</label>
+                        <input type="tel" id="shippingPhone" class="form-input" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Địa chỉ</label>
+                        <textarea id="shippingAddress" class="form-textarea" rows="3" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Ghi chú</label>
+                        <textarea id="orderNote" class="form-textarea" rows="2"></textarea>
+                    </div>
+                </form>
+            </div>
+            <!-- Payment Info -->
+            <div class="payment-section">
+                <h4 class="section-subtitle">Phương thức thanh toán</h4>
+                <div class="payment-methods">
+                    <label class="payment-option">
+                        <input type="radio" name="paymentMethod" value="qr" checked>
+                        <span>Chuyển khoản QR Code</span>
+                    </label>
+                    <label class="payment-option">
+                        <input type="radio" name="paymentMethod" value="cod">
+                        <span>Thanh toán khi nhận hàng (COD)</span>
+                    </label>
+                </div>
+
+                <!-- QR Payment -->
+                <div id="qrPayment" class="qr-payment">
+                    <div class="qr-container">
+                        <img src="img/qr.jpg" alt="QR Code" class="qr-code">
+                        <p class="qr-instruction">Quét mã QR để thanh toán</p>
+                    </div>
+                    <div class="bank-info">
+                        <p class="bank-title">Thông tin chuyển khoản:</p>
+                        <p>STK: 051220048999</p>
+                        <p>Ngân hàng: MB Bank</p>
+                        <p>Chủ TK: NGUYEN MANH TUNG</p>
+                        <p class="final-amount">Số tiền: <span id="finalAmount">0đ</span></p>
+                    </div>
+                </div>
+                <div class="order-summary">
+                    <div class="summary-row">
+                        <span>Tạm tính:</span>
+                        <span id="subtotal">0đ</span>
+                    </div>
+                    <div class="summary-row">
+                        <span>Phí vận chuyển:</span>
+                        <span>30,000đ</span>
+                    </div>
+                    <div class="summary-row discount">
+                        <span>Giảm giá:</span>
+                        <span id="discountAmount">0đ</span>
+                    </div>
+                    <div class="summary-row total">
+                        <span>Tổng cộng:</span>
+                        <span id="totalAmount">0đ</span>
+                    </div>
+                    <button id="placeOrderBtn" class="place-order-btn">Đặt hàng</button>
+                </div>
+            </div>
+        </div>
+    </div>

@@ -1,0 +1,151 @@
+﻿<!-- Admin Panel Modal -->
+<div id="adminModal" class="modal hidden">
+    <div class="modal-content admin-modal">
+        <div class="modal-header">
+            <h3 class="modal-title">Quản trị hệ thống</h3>
+            <button id="closeAdminModal" class="modal-close">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+
+        <!-- Admin Tabs -->
+        <div class="admin-tabs">
+            <button class="admin-tab active" data-tab="products">Sản phẩm</button>
+            <button class="admin-tab" data-tab="orders">Đơn hàng</button>
+            <button class="admin-tab" data-tab="vouchers">Voucher</button>
+        </div>
+
+        <!-- Products Tab -->
+        <div id="adminProducts" class="admin-content">
+            <div class="admin-header">
+                <h4 class="admin-title">Quản lý sản phẩm</h4>
+                <button id="addProductBtn" class="admin-btn add-btn">
+                    <i class="fas fa-plus"></i> Thêm sản phẩm
+                </button>
+            </div>
+            <div class="admin-table-container">
+                <table class="admin-table">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Tên sản phẩm</th>
+                            <th>Giá</th>
+                            <th>Số lượng</th>
+                            <th>Thao tác</th>
+                        </tr>
+                    </thead>
+                    <tbody id="adminProductsList">
+                        <!-- Products will be loaded here -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Orders Tab -->
+        <div id="adminOrders" class="admin-content hidden">
+            <h4 class="admin-title">Quản lý đơn hàng</h4>
+            <div class="admin-table-container">
+                <table class="admin-table">
+                    <thead>
+                        <tr>
+                            <th>Mã đơn</th>
+                            <th>Khách hàng</th>
+                            <th>Ngày đặt</th>
+                            <th>Tổng tiền</th>
+                            <th>Trạng thái</th>
+                            <th>Thao tác</th>
+                        </tr>
+                    </thead>
+                    <tbody id="adminOrdersList">
+                        <!-- Orders will be loaded here -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Vouchers Tab -->
+        <div id="adminVouchers" class="admin-content hidden">
+            <div class="admin-header">
+                <h4 class="admin-title">Quản lý Voucher</h4>
+                <button id="addVoucherBtn" class="admin-btn add-btn">
+                    <i class="fas fa-plus"></i> Tạo voucher
+                </button>
+            </div>
+            <div class="admin-table-container">
+                <table class="admin-table">
+                    <thead>
+                        <tr>
+                            <th>Mã voucher</th>
+                            <th>Giảm giá</th>
+                            <th>Ngày hết hạn</th>
+                            <th>Trạng thái</th>
+                            <th>Thao tác</th>
+                        </tr>
+                    </thead>
+                    <tbody id="adminVouchersList">
+                        <!-- Vouchers will be loaded here -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Add Product Modal -->
+<div id="addProductModal" class="modal hidden">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h3 class="modal-title">Thêm sản phẩm mới</h3>
+            <button id="closeAddProductModal" class="modal-close">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <form id="addProductForm" class="form">
+            <div class="form-group">
+                <label class="form-label">Tên sản phẩm</label>
+                <input type="text" id="newProductName" class="form-input" required>
+            </div>
+            <div class="form-group">
+                <label class="form-label">Giá bán</label>
+                <input type="number" id="newProductPrice" class="form-input" required>
+            </div>
+            <div class="form-group">
+                <label class="form-label">Giá gốc</label>
+                <input type="number" id="newProductOriginalPrice" class="form-input" required>
+            </div>
+            <div class="form-group">
+                <label class="form-label">Danh mục</label>
+                <select id="newProductCategory" class="form-input" required>
+                    <option value="">Chọn danh mục</option>
+                    <option value="laptop">Laptop</option>
+                    <option value="monitor">Màn hình</option>
+                    <option value="component">Linh kiện</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label class="form-label">Số lượng</label>
+                <input type="number" id="newProductStock" class="form-input" required>
+            </div>
+            <div class="form-group">
+                <label class="form-label">URL hình ảnh</label>
+                <input type="url" id="newProductImage" class="form-input"
+                       placeholder="https://example.com/image.jpg">
+            </div>
+            <div class="form-group">
+                <label class="form-label">Mô tả</label>
+                <textarea id="newProductDescription" class="form-textarea" rows="3" required></textarea>
+            </div>
+            <div class="form-group">
+                <label class="form-label">
+                    <input type="checkbox" id="newProductFeatured"> Sản phẩm nổi bật
+                </label>
+            </div>
+            <div class="form-group">
+                <label class="form-label">
+                    <input type="checkbox" id="newProductFlashSale"> Flash Sale
+                </label>
+            </div>
+            <button type="submit" class="form-btn">Thêm sản phẩm</button>
+        </form>
+    </div>
+</div>

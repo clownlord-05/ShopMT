@@ -1,0 +1,20 @@
+﻿@{
+    ViewBag.Title = "Trang chủ";
+}
+
+@Html.Partial("_Hero")
+@Html.Partial("_Chatbot")
+@Html.Partial("_FeaturedProducts")
+@Html.Partial("_FlashSale")
+@Html.Partial("_AllProducts")
+@Html.Partial("_CustomerSupport")
+@Html.Partial("_Footer")
+@Html.Partial("_AdminModal")
+@Html.Partial("_CartModal")
+@Html.Partial("_Vochers")
+@if (Context.Session.GetString("Role") == "admin")
+{
+    <button id="openAdminModal" class="bg-red-500 text-white px-4 py-2 rounded">
+        Quản trị hệ thống
+    </button>
+}

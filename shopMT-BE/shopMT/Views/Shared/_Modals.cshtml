@@ -1,0 +1,295 @@
+﻿<div id="loginModal" class="modal hidden">
+    <div class="modal-content">
+        <h3 class="modal-title">Đăng nhập</h3>
+        <form id="loginForm" class="form">
+            <div class="form-group">
+                <label class="form-label">Email</label>
+                <input type="email" id="loginEmail" class="form-input" required>
+            </div>
+            <div class="form-group">
+                <label class="form-label">Mật khẩu</label>
+                <input type="password" id="loginPassword" class="form-input" required>
+            </div>
+            <button type="submit" class="form-btn">Đăng nhập</button>
+        </form>
+        <div class="modal-switch">
+            <button id="switchToRegister" class="switch-btn">Chưa có tài khoản? Đăng ký</button>
+        </div>
+        <button id="closeLoginModal" class="modal-close">
+            <i class="fas fa-times"></i>
+        </button>
+    </div>
+</div>
+
+<!-- Register Modal -->
+<div id="registerModal" class="modal hidden">
+    <div class="modal-content">
+        <h3 class="modal-title">Đăng ký</h3>
+        <form id="registerForm" class="form">
+            <div class="form-group">
+                <label class="form-label">Họ tên</label>
+                <input type="text" id="registerName" class="form-input" required>
+            </div>
+            <div class="form-group">
+                <label class="form-label">Email</label>
+                <input type="email" id="registerEmail" class="form-input" required>
+            </div>
+            <div class="form-group">
+                <label class="form-label">Mật khẩu</label>
+                <input type="password" id="registerPassword" class="form-input" required>
+            </div>
+            <button type="submit" class="form-btn register-btn">Đăng ký</button>
+        </form>
+        <div class="modal-switch">
+            <button id="switchToLogin" class="switch-btn">Đã có tài khoản? Đăng nhập</button>
+        </div>
+        <button id="closeRegisterModal" class="modal-close">
+            <i class="fas fa-times"></i>
+        </button>
+    </div>
+</div>
+
+<!-- Product Detail Modal -->
+ <div id="productModal" class="modal hidden">
+    <div class="modal-content product-modal">
+        <div class="modal-header">
+            <h3 id="productModalTitle" class="modal-title"></h3>
+            <button id="closeProductModal" class="modal-close">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="product-detail-grid">
+            <!-- Product Images -->
+            <!-- Ảnh sản phẩm - trong modal -->
+            <div class="product-images">
+                <img id="productModalImage" src="" alt="" class="main-image">
+
+                <!-- Mặc định: ảnh màn hình (monitor) -->
+                <div class="thumbnail-grid laptop">
+                    <img src="@Url.Content("~/img/rog.jpg")" class="thumbnail">
+                    <img src="@Url.Content("~/img/rog2.jpg")" class="thumbnail">
+                    <img src="@Url.Content("~/img/rog1.jpg")" class="thumbnail">
+                    <img src="@Url.Content("~/img/rog3.jpg")" class="thumbnail">
+                </div>
+
+                <!-- Laptop Dell -->
+                <div class="thumbnail-grid monitor">
+                    <img src="@Url.Content("~/img/mn.jpg")" class="thumbnail">
+                    <img src="@Url.Content("~/img/m2.jpg")" class="thumbnail">
+                    <img src="@Url.Content("~/img/mh3.jpg")" class="thumbnail">
+                    <img src="@Url.Content("~/img/mh4.jpg")" class="thumbnail">
+                </div>
+
+                <!-- Linh kiện CPU -->
+                <div class="thumbnail-grid component">
+                    <img src="@Url.Content("~/img/chip.jpg")" class="thumbnail">
+                    <img src="@Url.Content("~/img/cpu.jpg")" class="thumbnail">
+                    <img src="@Url.Content("~/img/cpu2.jpg")" class="thumbnail">
+                    <img src="@Url.Content("~/img/cpu3.jpg")" class="thumbnail">
+                </div>
+
+
+            <!-- Product Info -->
+            <div class="product-info">
+                <div class="price-section">
+                    <span id="productModalPrice" class="current-price"></span>
+                    <span id="productModalOriginalPrice" class="original-price"></span>
+                </div>
+                <div class="rating-section">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <span class="review-count">(128 đánh giá)</span>
+                </div>
+
+                <!-- Product Specs -->
+                <div class="specs-section">
+                    <h4 class="specs-title">Thông số kỹ thuật</h4>
+                    <div id="productSpecs" class="specs-list">
+                        <!-- Specs will be loaded here -->
+                    </div>
+                </div>
+
+                <!-- Quantity and Actions -->
+                <div class="quantity-section">
+                    <div class="quantity-control">
+                        <span>Số lượng:</span>
+                        <div class="quantity-input">
+                            <button id="decreaseQty" class="qty-btn">-</button>
+                            <input type="number" id="productQty" value="1" min="1" class="qty-field">
+                            <button id="increaseQty" class="qty-btn">+</button>
+                        </div>
+                    </div>
+                    <div class="action-buttons">
+                        <button id="buyNowBtn" class="action-btn buy-now">Mua ngay</button>
+                        <button id="addToCartBtn" class="action-btn add-cart">Thêm vào giỏ</button>
+                    </div>
+                </div>
+
+                <!-- Product Description -->
+                <div class="description-section">
+                    <h4 class="description-title">Mô tả sản phẩm</h4>
+                    <div id="productDescription" class="description-text">
+                        <!-- Description will be loaded here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Admin Panel Modal -->
+<div id="adminModal" class="modal hidden">
+    <div class="modal-content admin-modal">
+        <div class="modal-header">
+            <h3 class="modal-title">Quản trị hệ thống</h3>
+            <button id="closeAdminModal" class="modal-close">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+
+        <!-- Admin Tabs -->
+        <div class="admin-tabs">
+            <button class="admin-tab active" data-tab="products">Sản phẩm</button>
+            <button class="admin-tab" data-tab="orders">Đơn hàng</button>
+            <button class="admin-tab" data-tab="vouchers">Voucher</button>
+        </div>
+
+        <!-- Products Tab -->
+        <div id="adminProducts" class="admin-content">
+            <div class="admin-header">
+                <h4 class="admin-title">Quản lý sản phẩm</h4>
+                <button id="addProductBtn" class="admin-btn add-btn">
+                    <i class="fas fa-plus"></i> Thêm sản phẩm
+                </button>
+            </div>
+            <div class="admin-table-container">
+                <table class="admin-table">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Tên sản phẩm</th>
+                            <th>Giá</th>
+                            <th>Số lượng</th>
+                            <th>Thao tác</th>
+                        </tr>
+                    </thead>
+                    <tbody id="adminProductsList">
+                        <!-- Products will be loaded here -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Orders Tab -->
+        <div id="adminOrders" class="admin-content hidden">
+            <h4 class="admin-title">Quản lý đơn hàng</h4>
+            <div class="admin-table-container">
+                <table class="admin-table">
+                    <thead>
+                        <tr>
+                            <th>Mã đơn</th>
+                            <th>Khách hàng</th>
+                            <th>Ngày đặt</th>
+                            <th>Tổng tiền</th>
+                            <th>Trạng thái</th>
+                            <th>Thao tác</th>
+                        </tr>
+                    </thead>
+                    <tbody id="adminOrdersList">
+                        <!-- Orders will be loaded here -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Vouchers Tab -->
+        <div id="adminVouchers" class="admin-content hidden">
+            <div class="admin-header">
+                <h4 class="admin-title">Quản lý Voucher</h4>
+                <button id="addVoucherBtn" class="admin-btn add-btn">
+                    <i class="fas fa-plus"></i> Tạo voucher
+                </button>
+            </div>
+            <div class="admin-table-container">
+                <table class="admin-table">
+                    <thead>
+                        <tr>
+                            <th>Mã voucher</th>
+                            <th>Giảm giá</th>
+                            <th>Ngày hết hạn</th>
+                            <th>Trạng thái</th>
+                            <th>Thao tác</th>
+                        </tr>
+                    </thead>
+                    <tbody id="adminVouchersList">
+                        <!-- Vouchers will be loaded here -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Add Product Modal -->
+<div id="addProductModal" class="modal hidden">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h3 class="modal-title">Thêm sản phẩm mới</h3>
+            <button id="closeAddProductModal" class="modal-close">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <form id="addProductForm" class="form">
+            <div class="form-group">
+                <label class="form-label">Tên sản phẩm</label>
+                <input type="text" id="newProductName" class="form-input" required>
+            </div>
+            <div class="form-group">
+                <label class="form-label">Giá bán</label>
+                <input type="number" id="newProductPrice" class="form-input" required>
+            </div>
+            <div class="form-group">
+                <label class="form-label">Giá gốc</label>
+                <input type="number" id="newProductOriginalPrice" class="form-input" required>
+            </div>
+            <div class="form-group">
+                <label class="form-label">Danh mục</label>
+                <select id="newProductCategory" class="form-input" required>
+                    <option value="">Chọn danh mục</option>
+                    <option value="laptop">Laptop</option>
+                    <option value="monitor">Màn hình</option>
+                    <option value="component">Linh kiện</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label class="form-label">Số lượng</label>
+                <input type="number" id="newProductStock" class="form-input" required>
+            </div>
+            <div class="form-group">
+                <label class="form-label">URL hình ảnh</label>
+                <input type="url" id="newProductImage" class="form-input"
+                       placeholder="https://example.com/image.jpg">
+            </div>
+            <div class="form-group">
+                <label class="form-label">Mô tả</label>
+                <textarea id="newProductDescription" class="form-textarea" rows="3" required></textarea>
+            </div>
+            <div class="form-group">
+                <label class="form-label">
+                    <input type="checkbox" id="newProductFeatured"> Sản phẩm nổi bật
+                </label>
+            </div>
+            <div class="form-group">
+                <label class="form-label">
+                    <input type="checkbox" id="newProductFlashSale"> Flash Sale
+                </label>
+            </div>
+            <button type="submit" class="form-btn">Thêm sản phẩm</button>
+        </form>
+    </div>
+</div>
+

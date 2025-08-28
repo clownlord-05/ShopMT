@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MT Shop - Laptop & Linh Kiện Điện Tử</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="header" id="page">
+        <div class="container">
+            <!-- Top Bar -->
+            <div class="top-bar">
+                <div class="contact-info">
+                    <span><i class="fas fa-phone"></i> Hotline: 0365261896</span>
+                    <span><i class="fas fa-envelope"></i> tung05122004@gmail.com</span>
+                </div>
+                <div class="auth-buttons">
+                    <button id="loginBtn" class="auth-btn"><i class="fas fa-sign-in-alt"></i> Đăng nhập</button>
+                    <button id="registerBtn" class="auth-btn"><i class="fas fa-user-plus"></i> Đăng ký</button>
+                    <button id="adminBtn" class="auth-btn hidden"><i class="fas fa-cog"></i> Admin</button>
+                </div>
+            </div>
+
+            <!-- Main Header -->
+            <div class="main-header">
+                <div class="logo-section">
+                    <h1 class="logo">MT Shop</h1>
+                    <span class="badge">Uy tín #1</span>
+                </div>
+
+                <!-- Search Bar -->
+                <div class="search-container">
+                    <div class="search-box">
+                        <input type="text" id="searchInput" placeholder="Tìm kiếm laptop, linh kiện...">
+                        <button class="search-btn">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Cart and User -->
+                <div class="header-actions">
+                    <button id="cartBtn" class="cart-btn">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span id="cartCount" class="cart-count">0</span>
+                    </button>
+                    <div id="userInfo" class="user-info hidden">
+                        <span id="userName"></span>
+                        <button id="logoutBtn" class="logout-btn">Đăng xuất</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Navigation -->
+            <nav class="navigation">
+                <ul class="nav-list">
+                    <li><a href="#page" class="nav-link"><i class="fas fa-home"></i> Trang chủ</a></li>
+                    <li><a href="#featured" class="nav-link"><i class="fas fa-star"></i> Sản phẩm nổi bật</a></li>
+                    <li><a href="#flashsale" class="nav-link flash-link"><i class="fas fa-bolt"></i> Flash Sale</a></li>
+                    <li><a href="#products" class="nav-link"><i class="fas fa-laptop"></i> Laptop</a></li>
+                    <li><a href="#products" class="nav-link"><i class="fas fa-desktop"></i> Màn hình</a></li>
+                    <li><a href="#products" class="nav-link"><i class="fas fa-microchip"></i> Linh kiện</a></li>
+                    <li><a href="#support" class="nav-link"><i class="fas fa-headset"></i> Chăm sóc KH</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Banner Section -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <div class="container">
+                <h2 class="hero-title">Chào mừng đến MT Shop</h2>
+                <p class="hero-subtitle">Laptop, linh kiện điện tử chính hãng - Giá tốt nhất thị trường</p>
+                <a href="#featured" class="hero-btn">Khám phá ngay</a>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products Section -->
+    <section id="featured" class="section">
+        <div class="container">
+            <h3 class="section-title">Sản phẩm nổi bật</h3>
+            <div class="products-grid" id="featuredProducts">
+                <!-- Featured products will be loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Flash Sale Section -->
+    <section id="flashsale" class="flash-sale-section">
+        <div class="container">
+            <div class="flash-sale-header">
+                <h3 class="flash-sale-title">⚡ FLASH SALE ⚡</h3>
+                <div class="countdown-container">
+                    <span>Kết thúc trong:</span>
+                    <div id="countdown" class="countdown">
+                        <div class="countdown-item">
+                            <span id="hours">12</span>
+                            <div class="countdown-label">Giờ</div>
+                        </div>
+                        <div class="countdown-item">
+                            <span id="minutes">34</span>
+                            <div class="countdown-label">Phút</div>
+                        </div>
+                        <div class="countdown-item">
+                            <span id="seconds">56</span>
+                            <div class="countdown-label">Giây</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="products-grid" id="flashSaleProducts">
+                <!-- Flash sale products will be loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- All Products Section -->
+    <section id="products" class="section products-section">
+        <div class="container">
+            <h3 class="section-title">Tất cả sản phẩm</h3>
+
+            <!-- Filter Bar -->
+            <div class="filter-bar">
+                <button class="filter-btn active" data-category="all">Tất cả</button>
+                <button class="filter-btn" data-category="laptop">Laptop</button>
+                <button class="filter-btn" data-category="monitor">Màn hình</button>
+                <button class="filter-btn" data-category="component">Linh kiện</button>
+            </div>
+
+            <div class="products-grid" id="allProducts">
+                <!-- All products will be loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Customer Support Section -->
+    <section id="support" class="section support-section">
+        <div class="container">
+            <h3 class="section-title">Chăm sóc khách hàng</h3>
+            <div class="support-grid">
+                <div class="support-card">
+                    <i class="fas fa-shipping-fast support-icon"></i>
+                    <h4 class="support-title">Giao hàng nhanh</h4>
+                    <p class="support-desc">Giao hàng trong 24h tại TP.HCM</p>
+                </div>
+                <div class="support-card">
+                    <i class="fas fa-shield-alt support-icon"></i>
+                    <h4 class="support-title">Bảo hành chính hãng</h4>
+                    <p class="support-desc">Bảo hành 12-36 tháng</p>
+                </div>
+                <div class="support-card">
+                    <i class="fas fa-headset support-icon"></i>
+                    <h4 class="support-title">Hỗ trợ 24/7</h4>
+                    <p class="support-desc">Tư vấn miễn phí mọi lúc</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h4 class="footer-title">MT Shop</h4>
+                    <p class="footer-desc">Chuyên cung cấp laptop, linh kiện điện tử chính hãng với giá tốt nhất.</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/mtung2004" class="social-link facebook"><i
+                                class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/manhtung0512/" class="social-link instagram"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="https://www.tiktok.com/@manhtungdayroi" class="social-link tiktok"><i
+                                class="fab fa-tiktok"></i></a>
+                        <a href="https://web.telegram.org/a/" class="social-link telegram"><i
+                                class="fab fa-telegram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column3">
+                    <h5 class="footer-subtitle">Thông tin liên hệ</h5>
+                    <ul class="footer-list">
+                        <li><i class="fas fa-map-marker-alt"></i> 113 Hai Bà Trưng - Hà Nội</li>
+                        <li><i class="fas fa-phone"></i> 0365261896</li>
+                        <li><i class="fas fa-envelope"></i> tung05122004@gmail.com</li>
+                    </ul>
+                </div>
+                <div class="footer-column2">
+                    <h5 class="footer-subtitle">Danh mục</h5>
+                    <ul class="footer-list">
+                        <li><a href="#" class="footer-link">Laptop Gaming</a></li>
+                        <li><a href="#" class="footer-link">Laptop Văn phòng</a></li>
+                        <li><a href="#" class="footer-link">Màn hình Gaming</a></li>
+                        <li><a href="#" class="footer-link">Linh kiện PC</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column1">
+                    <h5 class="footer-subtitle">Chính sách</h5>
+                    <ul class="footer-list">
+                        <li><a href="#" class="footer-link">Chính sách bảo hành</a></li>
+                        <li><a href="#" class="footer-link">Chính sách đổi trả</a></li>
+                        <li><a href="#" class="footer-link">Chính sách giao hàng</a></li>
+                        <li><a href="#" class="footer-link">Điều khoản sử dụng</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 MT Shop. Uy tín, chất lượng tạo lên thương hiệu.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Login Modal -->
+    <div id="loginModal" class="modal hidden">
+        <div class="modal-content">
+            <h3 class="modal-title">Đăng nhập</h3>
+            <form id="loginForm" class="form">
+                <div class="form-group">
+                    <label class="form-label">Email</label>
+                    <input type="email" id="loginEmail" class="form-input" required>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Mật khẩu</label>
+                    <input type="password" id="loginPassword" class="form-input" required>
+                </div>
+                <button type="submit" class="form-btn">Đăng nhập</button>
+            </form>
+            <div class="modal-switch">
+                <button id="switchToRegister" class="switch-btn">Chưa có tài khoản? Đăng ký</button>
+            </div>
+            <button id="closeLoginModal" class="modal-close">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- Register Modal -->
+    <div id="registerModal" class="modal hidden">
+        <div class="modal-content">
+            <h3 class="modal-title">Đăng ký</h3>
+            <form id="registerForm" class="form">
+                <div class="form-group">
+                    <label class="form-label">Họ tên</label>
+                    <input type="text" id="registerName" class="form-input" required>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Email</label>
+                    <input type="email" id="registerEmail" class="form-input" required>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Mật khẩu</label>
+                    <input type="password" id="registerPassword" class="form-input" required>
+                </div>
+                <button type="submit" class="form-btn register-btn">Đăng ký</button>
+            </form>
+            <div class="modal-switch">
+                <button id="switchToLogin" class="switch-btn">Đã có tài khoản? Đăng nhập</button>
+            </div>
+            <button id="closeRegisterModal" class="modal-close">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- Product Detail Modal -->
+    <div id="productModal" class="modal hidden">
+        <div class="modal-content product-modal">
+            <div class="modal-header">
+                <h3 id="productModalTitle" class="modal-title"></h3>
+                <button id="closeProductModal" class="modal-close">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="product-detail-grid">
+                <!-- Product Images -->
+                <!-- Ảnh sản phẩm - trong modal -->
+                <div class="product-images">
+                    <img id="productModalImage" src="" alt="" class="main-image">
+
+                    <!-- Mặc định: ảnh màn hình (monitor) -->
+                    <div class="thumbnail-grid laptop">
+                        <img src="assets/img/rog.webp" class="thumbnail">
+                        <img src="assets/img/rog2.webp" class="thumbnail">
+                        <img src="assets/img/rog1.webp" class="thumbnail">
+                        <img src="assets/img/rog3.webp" class="thumbnail">
+                    </div>
+
+                    <!-- Laptop Dell -->
+                    <div class="thumbnail-grid monitor">
+                        <img src="assets/img/mn.webp" class="thumbnail">
+                        <img src="assets/img/m2.webp" class="thumbnail">
+                        <img src="assets/img/mh3.webp" class="thumbnail">
+                        <img src="assets/img/mh4.webp" class="thumbnail">
+                    </div>
+
+                    <!-- Linh kiện CPU -->
+                    <div class="thumbnail-grid component">
+                        <img src="assets/img/chip.jpg" class="thumbnail">
+                        <img src="assets/img/cpu.jpg" class="thumbnail">
+                        <img src="assets/img/cpu2.jpg" class="thumbnail">
+                        <img src="assets/img/cpu3.jpg" class="thumbnail">
+                    </div>
+                </div>
+
+                <!-- Product Info -->
+                <div class="product-info">
+                    <div class="price-section">
+                        <span id="productModalPrice" class="current-price"></span>
+                        <span id="productModalOriginalPrice" class="original-price"></span>
+                    </div>
+                    <div class="rating-section">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <span class="review-count">(128 đánh giá)</span>
+                    </div>
+
+                    <!-- Product Specs -->
+                    <div class="specs-section">
+                        <h4 class="specs-title">Thông số kỹ thuật</h4>
+                        <div id="productSpecs" class="specs-list">
+                            <!-- Specs will be loaded here -->
+                        </div>
+                    </div>
+
+                    <!-- Quantity and Actions -->
+                    <div class="quantity-section">
+                        <div class="quantity-control">
+                            <span>Số lượng:</span>
+                            <div class="quantity-input">
+                                <button id="decreaseQty" class="qty-btn">-</button>
+                                <input type="number" id="productQty" value="1" min="1" class="qty-field">
+                                <button id="increaseQty" class="qty-btn">+</button>
+                            </div>
+                        </div>
+                        <div class="action-buttons">
+                            <button id="buyNowBtn" class="action-btn buy-now">Mua ngay</button>
+                            <button id="addToCartBtn" class="action-btn add-cart">Thêm vào giỏ</button>
+                        </div>
+                    </div>
+
+                    <!-- Product Description -->
+                    <div class="description-section">
+                        <h4 class="description-title">Mô tả sản phẩm</h4>
+                        <div id="productDescription" class="description-text">
+                            <!-- Description will be loaded here -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cart Modal -->
+    <div id="cartModal" class="modal hidden">
+        <div class="modal-content cart-modal">
+            <div class="modal-header">
+                <h3 class="modal-title">Giỏ hàng của bạn</h3>
+                <button id="closeCartModal" class="modal-close">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div id="cartItems" class="cart-items">
+                <!-- Cart items will be loaded here -->
+            </div>
+            <div class="cart-footer">
+                <div class="cart-total">
+                    <span class="total-label">Tổng cộng:</span>
+                    <span id="cartTotal" class="total-amount">0đ</span>
+                </div>
+                <div class="voucher-section">
+                    <label class="form-label">Mã giảm giá</label>
+                    <div class="voucher-input">
+                        <input type="text" id="voucherCode" placeholder="Nhập mã giảm giá" class="form-input">
+                        <button id="applyVoucher" class="voucher-btn">Áp dụng</button>
+                    </div>
+                    <div id="voucherMessage" class="voucher-message"></div>
+                </div>
+                <button id="checkoutBtn" class="checkout-btn">Thanh toán</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Checkout Modal -->
+    <div id="checkoutModal" class="modal hidden">
+        <div class="modal-content checkout-modal">
+            <div class="modal-header">
+                <h3 class="modal-title">Thanh toán</h3>
+                <button id="closeCheckoutModal" class="modal-close">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="checkout-grid">
+                <!-- Shipping Info -->
+                <div class="shipping-section">
+                    <h4 class="section-subtitle">Thông tin giao hàng</h4>
+                    <form id="checkoutForm" class="form">
+                        <div class="form-group">
+                            <label class="form-label">Họ tên</label>
+                            <input type="text" id="shippingName" class="form-input" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Số điện thoại</label>
+                            <input type="tel" id="shippingPhone" class="form-input" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Địa chỉ</label>
+                            <textarea id="shippingAddress" class="form-textarea" rows="3" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Ghi chú</label>
+                            <textarea id="orderNote" class="form-textarea" rows="2"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <!-- Payment Info -->
+                <div class="payment-section">
+                    <h4 class="section-subtitle">Phương thức thanh toán</h4>
+                    <div class="payment-methods">
+                        <label class="payment-option">
+                            <input type="radio" name="paymentMethod" value="qr" checked>
+                            <span>Chuyển khoản QR Code</span>
+                        </label>
+                        <label class="payment-option">
+                            <input type="radio" name="paymentMethod" value="cod">
+                            <span>Thanh toán khi nhận hàng (COD)</span>
+                        </label>
+                    </div>
+
+                    <!-- QR Payment -->
+                    <div id="qrPayment" class="qr-payment">
+                        <div class="qr-container">
+                            <img id="qrImage" src="https://img.vietqr.io/image/MB-051220048999-qr_only.png?amount=50000&addinfo=Thanh%20to%C3%A1n%20%C4%91%C6%A1n%20h%C3%A0ng%2012345" alt="QR thanh toán">
+                            <p class="qr-instruction">Quét mã QR để thanh toán</p>
+                        </div>
+                        <div class="bank-info">
+                            <p class="bank-title">Thông tin chuyển khoản:</p>
+                            <p>STK: 051220048999</p>
+                            <p>Ngân hàng: MB Bank</p>
+                            <p>Chủ TK: MT Shop</p>
+                            <p class="final-amount">Số tiền: <span id="finalAmount">0đ</span></p>
+                        </div>
+                    </div>
+
+                    <div class="order-summary">
+                        <div class="summary-row">
+                            <span>Tạm tính:</span>
+                            <span id="subtotal">0đ</span>
+                        </div>
+                        <div class="summary-row">
+                            <span>Phí vận chuyển:</span>
+                            <span>30,000đ</span>
+                        </div>
+                        <div class="summary-row discount">
+                            <span>Giảm giá:</span>
+                            <span id="discountAmount">0đ</span>
+                        </div>
+                        <div class="summary-row total">
+                            <span>Tổng cộng:</span>
+                            <span id="totalAmount">0đ</span>
+                        </div>
+                    </div>
+
+                    <button id="placeOrderBtn" class="place-order-btn">Đặt hàng</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Admin Panel Modal -->
+    <div id="adminModal" class="modal hidden">
+        <div class="modal-content admin-modal">
+            <div class="modal-header">
+                <h3 class="modal-title">Quản trị hệ thống</h3>
+                <button id="closeAdminModal" class="modal-close">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+
+            <!-- Admin Tabs -->
+            <div class="admin-tabs">
+                <button class="admin-tab active" data-tab="products">Sản phẩm</button>
+                <button class="admin-tab" data-tab="orders">Đơn hàng</button>
+                <button class="admin-tab" data-tab="vouchers">Voucher</button>
+            </div>
+
+            <!-- Products Tab -->
+            <div id="adminProducts" class="admin-content">
+                <div class="admin-header">
+                    <h4 class="admin-title">Quản lý sản phẩm</h4>
+                    <button id="addProductBtn" class="admin-btn add-btn">
+                        <i class="fas fa-plus"></i> Thêm sản phẩm
+                    </button>
+                </div>
+                <div class="admin-table-container">
+                    <table class="admin-table">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Tên sản phẩm</th>
+                                <th>Giá</th>
+                                <th>Số lượng</th>
+                                <th>Thao tác</th>
+                            </tr>
+                        </thead>
+                        <tbody id="adminProductsList">
+                            <!-- Products will be loaded here -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Orders Tab -->
+            <div id="adminOrders" class="admin-content hidden">
+                <h4 class="admin-title">Quản lý đơn hàng</h4>
+                <div class="admin-table-container">
+                    <table class="admin-table">
+                        <thead>
+                            <tr>
+                                <th>Mã đơn</th>
+                                <th>Khách hàng</th>
+                                <th>Ngày đặt</th>
+                                <th>Tổng tiền</th>
+                                <th>Trạng thái</th>
+                                <th>Thao tác</th>
+                            </tr>
+                        </thead>
+                        <tbody id="adminOrdersList">
+                            <!-- Orders will be loaded here -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Vouchers Tab -->
+            <div id="adminVouchers" class="admin-content hidden">
+                <div class="admin-header">
+                    <h4 class="admin-title">Quản lý Voucher</h4>
+                    <button id="addVoucherBtn" class="admin-btn add-btn">
+                        <i class="fas fa-plus"></i> Tạo voucher
+                    </button>
+                </div>
+                <div class="admin-table-container">
+                    <table class="admin-table">
+                        <thead>
+                            <tr>
+                                <th>Mã voucher</th>
+                                <th>Giảm giá</th>
+                                <th>Ngày hết hạn</th>
+                                <th>Trạng thái</th>
+                                <th>Thao tác</th>
+                            </tr>
+                        </thead>
+                        <tbody id="adminVouchersList">
+                            <!-- Vouchers will be loaded here -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Add Product Modal -->
+    <div id="addProductModal" class="modal hidden">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">Thêm sản phẩm mới</h3>
+                <button id="closeAddProductModal" class="modal-close">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <form id="addProductForm" class="form">
+                <div class="form-group">
+                    <label class="form-label">Tên sản phẩm</label>
+                    <input type="text" id="newProductName" class="form-input" required>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Giá bán</label>
+                    <input type="number" id="newProductPrice" class="form-input" required>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Giá gốc</label>
+                    <input type="number" id="newProductOriginalPrice" class="form-input" required>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Danh mục</label>
+                    <select id="newProductCategory" class="form-input" required>
+                        <option value="">Chọn danh mục</option>
+                        <option value="laptop">Laptop</option>
+                        <option value="monitor">Màn hình</option>
+                        <option value="component">Linh kiện</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Số lượng</label>
+                    <input type="number" id="newProductStock" class="form-input" required>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">URL hình ảnh</label>
+                    <input type="url" id="newProductImage" class="form-input"
+                        placeholder="https://example.com/image.jpg">
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Mô tả</label>
+                    <textarea id="newProductDescription" class="form-textarea" rows="3" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">
+                        <input type="checkbox" id="newProductFeatured"> Sản phẩm nổi bật
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">
+                        <input type="checkbox" id="newProductFlashSale"> Flash Sale
+                    </label>
+                </div>
+                <button type="submit" class="form-btn">Thêm sản phẩm</button>
+            </form>
+        </div>
+    </div>
+    <!-- Edit Product Price Modal -->
+    <div id="editPriceModal" class="modal hidden">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">Chỉnh sửa giá sản phẩm</h3>
+                <button id="closeEditPriceModal" class="modal-close"><i class="fas fa-times"></i></button>
+            </div>
+            <form id="editPriceForm" class="form">
+                <div class="form-group">
+                    <label class="form-label">Giá mới</label>
+                    <input type="number" id="editNewPrice" class="form-input" required>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Giá gốc</label>
+                    <input type="number" id="editNewOriginalPrice" class="form-input" required>
+                </div>
+                <button type="submit" class="form-btn">Lưu thay đổi</button>
+            </form>
+        </div>
+    </div>
+
+
+    <!-- Add Voucher Modal -->
+    <div id="addVoucherModal" class="modal hidden   ">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">Tạo voucher mới</h3>
+                <button id="closeAddVoucherModal" class="modal-close">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <form id="addVoucherForm" class="form">
+                <div class="form-group">
+                    <label class="form-label">Mã voucher</label>
+                    <input type="text" id="newVoucherCode" class="form-input" placeholder="VD: SAVE20" required>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Loại giảm giá</label>
+                    <select id="newVoucherType" class="form-input" required>
+                        <option value="">Chọn loại</option>
+                        <option value="percent">Phần trăm (%)</option>
+                        <option value="fixed">Số tiền cố định (VNĐ)</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Giá trị giảm</label>
+                    <input type="number" id="newVoucherDiscount" class="form-input" required>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Ngày hết hạn</label>
+                    <input type="date" id="newVoucherExpiry" class="form-input" required>
+                </div>
+                <button type="submit" class="form-btn">Tạo voucher</button>
+            </form>
+        </div>
+    </div>
+    <!-- Nút hình tròn -->
+    <button id="chat-toggle" aria-label="Chat">
+        <svg viewBox="0 0 24 24">
+            <path
+                d="M12 3C6.48 3 2 6.92 2 11c0 2.04 1.06 3.9 2.82 5.3L4 21l4.11-2.18c1.07.25 2.21.38 3.39.38 5.52 0 10-3.92 10-8s-4.48-8-10-8z" />
+        </svg>
+    </button>
+    <!-- Hộp chat -->
+    <div id="chatbot">
+        <div id="chat-content"></div>
+        <div id="quick-replies">
+            <button onclick="sendQuickReply('Hello')">Xin chào</button>
+            <button onclick="sendQuickReply('Tôi cần tư vấn laptop')">Tư vấn laptop</button>
+            <button onclick="sendQuickReply('Thanh toán')">Thanh toán</button>
+            <button onclick="sendQuickReply('Laptop Gaming')">Laptop Gaming</button>
+            <button onclick="sendQuickReply('Laptop văn phòng')">Laptop văn phòng</button>
+        </div>
+        <div id="chat-input">
+            <input type="text" id="user-input" placeholder="Nhập câu hỏi..." />
+            <button onclick="sendMessage()">Gửi</button>
+        </div>
+    </div>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

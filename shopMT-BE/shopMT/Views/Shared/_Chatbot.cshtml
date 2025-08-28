@@ -1,0 +1,29 @@
+﻿<!-- Nút hình tròn -->
+<button id="chat-toggle" aria-label="Chat">
+    <svg viewBox="0 0 24 24">
+        <path d="M12 3C6.48 3 2 6.92 2 11c0 2.04 1.06 3.9 2.82 5.3L4 21l4.11-2.18c1.07.25 2.21.38 3.39.38 5.52 0 10-3.92 10-8s-4.48-8-10-8z" />
+    </svg>
+</button>
+<!-- Hộp chat -->
+<div id="chatbot">
+    <div id="chat-content"></div>
+    <div id="quick-replies">
+        <button onclick="sendQuickReply('Hello')">Xin chào</button>
+        <button onclick="sendQuickReply('Tôi cần tư vấn laptop')">Tư vấn laptop</button>
+        <button onclick="sendQuickReply('Thanh toán')">Thanh toán</button>
+        <button onclick="sendQuickReply('Laptop Gaming')">Laptop Gaming</button>
+        <button onclick="sendQuickReply('Laptop văn phòng')">Laptop văn phòng</button>
+    </div>
+    <div id="chat-input">
+        <input type="text" id="user-input" placeholder="Nhập câu hỏi..." />
+        <button onclick="sendMessage()">Gửi</button>
+    </div>
+    <div class="chatbot-footer">
+        <button class="chat-btn zalo-btn" onclick="window.open('https://zalo.me/0365261896', '_blank')">
+            <i class="fab fa-zalo"></i> Liên hệ Zalo
+        </button>
+        <button class="chat-btn messenger-btn" onclick="window.open('https://www.messenger.com/e2ee/t/7360417790707844/?locale=vi_VN', '_blank')">
+            <i class="fab fa-facebook-messenger"></i> Liên hệ Messenger
+        </button>
+    </div>
+</div>
