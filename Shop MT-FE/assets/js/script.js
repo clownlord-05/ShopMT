@@ -347,7 +347,7 @@ function handleLogin(e) {
     const password = document.getElementById('loginPassword').value;
     
     // Simple authentication (in real app, this would be server-side)
-    if (email === 'admin@mtshop.vn' && password === 'admin123') {
+    if (email === 'admin@mtshop.vn' && password === '1') {
         currentUser = { email, name: 'Admin', isAdmin: true };
         isAdmin = true;
         document.getElementById('adminBtn').classList.remove('hidden');
@@ -631,7 +631,7 @@ function updateCartUI() {
                     <img src="${item.image}" alt="${item.name}" class="cart-item-image" style="width: 80px; height: 80px; object-fit: cover; border-radius: 8px; margin-right: 15px;">
                     <div class="cart-item-details">
                         <h5 style="font-weight: bold; margin-bottom: 5px;">${item.name}</h5>
-                        <p class="cart-item-price" style="color: #dc3545; font-weight: bold;">${formatPrice(item.price)}</p>
+                        <p class="cart-item-price" style="color: #dc3545; font-weight: bold;">${formatPrice(item.price)}</p>                                                                                                                                               
                     </div>
                 </div>
                 <div class="cart-item-controls" style="display: flex; align-items: center; gap: 15px;">
@@ -1209,7 +1209,6 @@ function getBotResponse(input) {
 document.getElementById("user-input").addEventListener("keypress", function (e) {
   if (e.key === "Enter") sendMessage();
 });
-document.getElementById('chatbot').addEventListener('click', () => showModal('cartModal'));
 
 
 

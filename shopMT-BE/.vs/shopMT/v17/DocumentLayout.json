@@ -3,26 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\MANh TUNG\\Downloads\\\u0110\u1ED3 \u00E1n- website b\u00E1n laptop\u0026linh ki\u1EC7n \u0111i\u1EC7n t\u1EED\\shopMT-BE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{831BBE80-F116-4710-81AC-64DDFEA5641E}|shopMT\\shopMT.csproj|c:\\users\\manh tung\\downloads\\\u0111\u1ED3 \u00E1n- website b\u00E1n laptop\u0026linh ki\u1EC7n \u0111i\u1EC7n t\u1EED\\shopmt-be\\shopmt\\views\\shared\\_modals.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{831BBE80-F116-4710-81AC-64DDFEA5641E}|shopMT\\shopMT.csproj|solutionrelative:shopmt\\views\\shared\\_modals.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{831BBE80-F116-4710-81AC-64DDFEA5641E}|shopMT\\shopMT.csproj|c:\\users\\manh tung\\downloads\\\u0111\u1ED3 \u00E1n- website b\u00E1n laptop\u0026linh ki\u1EC7n \u0111i\u1EC7n t\u1EED\\shopmt-be\\shopmt\\views\\shared\\_hero.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{831BBE80-F116-4710-81AC-64DDFEA5641E}|shopMT\\shopMT.csproj|solutionrelative:shopmt\\views\\shared\\_hero.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{831BBE80-F116-4710-81AC-64DDFEA5641E}|shopMT\\shopMT.csproj|c:\\users\\manh tung\\downloads\\\u0111\u1ED3 \u00E1n- website b\u00E1n laptop\u0026linh ki\u1EC7n \u0111i\u1EC7n t\u1EED\\shopmt-be\\shopmt\\views\\shared\\_featuredproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{831BBE80-F116-4710-81AC-64DDFEA5641E}|shopMT\\shopMT.csproj|solutionrelative:shopmt\\views\\shared\\_featuredproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{831BBE80-F116-4710-81AC-64DDFEA5641E}|shopMT\\shopMT.csproj|c:\\users\\manh tung\\downloads\\\u0111\u1ED3 \u00E1n- website b\u00E1n laptop\u0026linh ki\u1EC7n \u0111i\u1EC7n t\u1EED\\shopmt-be\\shopmt\\views\\shared\\_allproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{831BBE80-F116-4710-81AC-64DDFEA5641E}|shopMT\\shopMT.csproj|solutionrelative:shopmt\\views\\shared\\_allproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{831BBE80-F116-4710-81AC-64DDFEA5641E}|shopMT\\shopMT.csproj|c:\\users\\manh tung\\downloads\\\u0111\u1ED3 \u00E1n- website b\u00E1n laptop\u0026linh ki\u1EC7n \u0111i\u1EC7n t\u1EED\\shopmt-be\\shopmt\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{831BBE80-F116-4710-81AC-64DDFEA5641E}|shopMT\\shopMT.csproj|solutionrelative:shopmt\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{831BBE80-F116-4710-81AC-64DDFEA5641E}|shopMT\\shopMT.csproj|c:\\users\\manh tung\\downloads\\\u0111\u1ED3 \u00E1n- website b\u00E1n laptop\u0026linh ki\u1EC7n \u0111i\u1EC7n t\u1EED\\shopmt-be\\shopmt\\views\\shared\\_adminmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{831BBE80-F116-4710-81AC-64DDFEA5641E}|shopMT\\shopMT.csproj|solutionrelative:shopmt\\views\\shared\\_adminmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -31,8 +11,36 @@
       "RelativeMoniker": "D:0:0:{831BBE80-F116-4710-81AC-64DDFEA5641E}|shopMT\\shopMT.csproj|solutionrelative:shopmt\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{831BBE80-F116-4710-81AC-64DDFEA5641E}|shopMT\\shopMT.csproj|c:\\users\\manh tung\\downloads\\\u0111\u1ED3 \u00E1n- website b\u00E1n laptop\u0026linh ki\u1EC7n \u0111i\u1EC7n t\u1EED\\shopmt-be\\shopmt\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{831BBE80-F116-4710-81AC-64DDFEA5641E}|shopMT\\shopMT.csproj|solutionrelative:shopmt\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{831BBE80-F116-4710-81AC-64DDFEA5641E}|shopMT\\shopMT.csproj|c:\\users\\manh tung\\downloads\\\u0111\u1ED3 \u00E1n- website b\u00E1n laptop\u0026linh ki\u1EC7n \u0111i\u1EC7n t\u1EED\\shopmt-be\\shopmt\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{831BBE80-F116-4710-81AC-64DDFEA5641E}|shopMT\\shopMT.csproj|solutionrelative:shopmt\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{831BBE80-F116-4710-81AC-64DDFEA5641E}|shopMT\\shopMT.csproj|c:\\users\\manh tung\\downloads\\\u0111\u1ED3 \u00E1n- website b\u00E1n laptop\u0026linh ki\u1EC7n \u0111i\u1EC7n t\u1EED\\shopmt-be\\shopmt\\views\\shared\\_chatbot.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{831BBE80-F116-4710-81AC-64DDFEA5641E}|shopMT\\shopMT.csproj|solutionrelative:shopmt\\views\\shared\\_chatbot.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{831BBE80-F116-4710-81AC-64DDFEA5641E}|shopMT\\shopMT.csproj|c:\\users\\manh tung\\downloads\\\u0111\u1ED3 \u00E1n- website b\u00E1n laptop\u0026linh ki\u1EC7n \u0111i\u1EC7n t\u1EED\\shopmt-be\\shopmt\\views\\shared\\_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{831BBE80-F116-4710-81AC-64DDFEA5641E}|shopMT\\shopMT.csproj|solutionrelative:shopmt\\views\\shared\\_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{831BBE80-F116-4710-81AC-64DDFEA5641E}|shopMT\\shopMT.csproj|c:\\users\\manh tung\\downloads\\\u0111\u1ED3 \u00E1n- website b\u00E1n laptop\u0026linh ki\u1EC7n \u0111i\u1EC7n t\u1EED\\shopmt-be\\shopmt\\views\\shared\\_hero.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{831BBE80-F116-4710-81AC-64DDFEA5641E}|shopMT\\shopMT.csproj|solutionrelative:shopmt\\views\\shared\\_hero.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{831BBE80-F116-4710-81AC-64DDFEA5641E}|shopMT\\shopMT.csproj|c:\\users\\manh tung\\downloads\\\u0111\u1ED3 \u00E1n- website b\u00E1n laptop\u0026linh ki\u1EC7n \u0111i\u1EC7n t\u1EED\\shopmt-be\\shopmt\\views\\shared\\_modals.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{831BBE80-F116-4710-81AC-64DDFEA5641E}|shopMT\\shopMT.csproj|solutionrelative:shopmt\\views\\shared\\_modals.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{831BBE80-F116-4710-81AC-64DDFEA5641E}|shopMT\\shopMT.csproj|c:\\users\\manh tung\\downloads\\\u0111\u1ED3 \u00E1n- website b\u00E1n laptop\u0026linh ki\u1EC7n \u0111i\u1EC7n t\u1EED\\shopmt-be\\shopmt\\views\\shared\\_featuredproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{831BBE80-F116-4710-81AC-64DDFEA5641E}|shopMT\\shopMT.csproj|solutionrelative:shopmt\\views\\shared\\_featuredproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{831BBE80-F116-4710-81AC-64DDFEA5641E}|shopMT\\shopMT.csproj|c:\\users\\manh tung\\downloads\\\u0111\u1ED3 \u00E1n- website b\u00E1n laptop\u0026linh ki\u1EC7n \u0111i\u1EC7n t\u1EED\\shopmt-be\\shopmt\\views\\shared\\_allproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{831BBE80-F116-4710-81AC-64DDFEA5641E}|shopMT\\shopMT.csproj|solutionrelative:shopmt\\views\\shared\\_allproducts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{831BBE80-F116-4710-81AC-64DDFEA5641E}|shopMT\\shopMT.csproj|c:\\users\\manh tung\\downloads\\\u0111\u1ED3 \u00E1n- website b\u00E1n laptop\u0026linh ki\u1EC7n \u0111i\u1EC7n t\u1EED\\shopmt-be\\shopmt\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -63,10 +71,6 @@
       "RelativeMoniker": "D:0:0:{831BBE80-F116-4710-81AC-64DDFEA5641E}|shopMT\\shopMT.csproj|solutionrelative:shopmt\\views\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{831BBE80-F116-4710-81AC-64DDFEA5641E}|shopMT\\shopMT.csproj|c:\\users\\manh tung\\downloads\\\u0111\u1ED3 \u00E1n- website b\u00E1n laptop\u0026linh ki\u1EC7n \u0111i\u1EC7n t\u1EED\\shopmt-be\\shopmt\\views\\shared\\_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{831BBE80-F116-4710-81AC-64DDFEA5641E}|shopMT\\shopMT.csproj|solutionrelative:shopmt\\views\\shared\\_footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{831BBE80-F116-4710-81AC-64DDFEA5641E}|shopMT\\shopMT.csproj|c:\\users\\manh tung\\downloads\\\u0111\u1ED3 \u00E1n- website b\u00E1n laptop\u0026linh ki\u1EC7n \u0111i\u1EC7n t\u1EED\\shopmt-be\\shopmt\\views\\shared\\_customersupport.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{831BBE80-F116-4710-81AC-64DDFEA5641E}|shopMT\\shopMT.csproj|solutionrelative:shopmt\\views\\shared\\_customersupport.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -76,10 +80,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{831BBE80-F116-4710-81AC-64DDFEA5641E}|shopMT\\shopMT.csproj|c:\\users\\manh tung\\downloads\\\u0111\u1ED3 \u00E1n- website b\u00E1n laptop\u0026linh ki\u1EC7n \u0111i\u1EC7n t\u1EED\\shopmt-be\\shopmt\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{831BBE80-F116-4710-81AC-64DDFEA5641E}|shopMT\\shopMT.csproj|solutionrelative:shopmt\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{831BBE80-F116-4710-81AC-64DDFEA5641E}|shopMT\\shopMT.csproj|c:\\users\\manh tung\\downloads\\\u0111\u1ED3 \u00E1n- website b\u00E1n laptop\u0026linh ki\u1EC7n \u0111i\u1EC7n t\u1EED\\shopmt-be\\shopmt\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{831BBE80-F116-4710-81AC-64DDFEA5641E}|shopMT\\shopMT.csproj|solutionrelative:shopmt\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{831BBE80-F116-4710-81AC-64DDFEA5641E}|shopMT\\shopMT.csproj|c:\\users\\manh tung\\downloads\\\u0111\u1ED3 \u00E1n- website b\u00E1n laptop\u0026linh ki\u1EC7n \u0111i\u1EC7n t\u1EED\\shopmt-be\\shopmt\\wwwroot\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}",
@@ -93,11 +93,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "site.js",
               "DocumentMoniker": "C:\\Users\\MANh TUNG\\Downloads\\\u0110\u1ED3 \u00E1n- website b\u00E1n laptop\u0026linh ki\u1EC7n \u0111i\u1EC7n t\u1EED\\shopMT-BE\\shopMT\\wwwroot\\js\\site.js",
               "RelativeDocumentMoniker": "shopMT\\wwwroot\\js\\site.js",
@@ -114,7 +114,79 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
+              "Title": "_Modals.cshtml",
+              "DocumentMoniker": "C:\\Users\\MANh TUNG\\Downloads\\\u0110\u1ED3 \u00E1n- website b\u00E1n laptop\u0026linh ki\u1EC7n \u0111i\u1EC7n t\u1EED\\shopMT-BE\\shopMT\\Views\\Shared\\_Modals.cshtml",
+              "RelativeDocumentMoniker": "shopMT\\Views\\Shared\\_Modals.cshtml",
+              "ToolTip": "C:\\Users\\MANh TUNG\\Downloads\\\u0110\u1ED3 \u00E1n- website b\u00E1n laptop\u0026linh ki\u1EC7n \u0111i\u1EC7n t\u1EED\\shopMT-BE\\shopMT\\Views\\Shared\\_Modals.cshtml",
+              "RelativeToolTip": "shopMT\\Views\\Shared\\_Modals.cshtml",
+              "ViewState": "AgIAAAQBAAAAAAAAAAAAABIBAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-31T07:44:48.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\MANh TUNG\\Downloads\\\u0110\u1ED3 \u00E1n- website b\u00E1n laptop\u0026linh ki\u1EC7n \u0111i\u1EC7n t\u1EED\\shopMT-BE\\shopMT\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "shopMT\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\MANh TUNG\\Downloads\\\u0110\u1ED3 \u00E1n- website b\u00E1n laptop\u0026linh ki\u1EC7n \u0111i\u1EC7n t\u1EED\\shopMT-BE\\shopMT\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "shopMT\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-31T09:19:22.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_AllProducts.cshtml",
+              "DocumentMoniker": "C:\\Users\\MANh TUNG\\Downloads\\\u0110\u1ED3 \u00E1n- website b\u00E1n laptop\u0026linh ki\u1EC7n \u0111i\u1EC7n t\u1EED\\shopMT-BE\\shopMT\\Views\\Shared\\_AllProducts.cshtml",
+              "RelativeDocumentMoniker": "shopMT\\Views\\Shared\\_AllProducts.cshtml",
+              "ToolTip": "C:\\Users\\MANh TUNG\\Downloads\\\u0110\u1ED3 \u00E1n- website b\u00E1n laptop\u0026linh ki\u1EC7n \u0111i\u1EC7n t\u1EED\\shopMT-BE\\shopMT\\Views\\Shared\\_AllProducts.cshtml",
+              "RelativeToolTip": "shopMT\\Views\\Shared\\_AllProducts.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-01T01:40:49.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_FeaturedProducts.cshtml",
+              "DocumentMoniker": "C:\\Users\\MANh TUNG\\Downloads\\\u0110\u1ED3 \u00E1n- website b\u00E1n laptop\u0026linh ki\u1EC7n \u0111i\u1EC7n t\u1EED\\shopMT-BE\\shopMT\\Views\\Shared\\_FeaturedProducts.cshtml",
+              "RelativeDocumentMoniker": "shopMT\\Views\\Shared\\_FeaturedProducts.cshtml",
+              "ToolTip": "C:\\Users\\MANh TUNG\\Downloads\\\u0110\u1ED3 \u00E1n- website b\u00E1n laptop\u0026linh ki\u1EC7n \u0111i\u1EC7n t\u1EED\\shopMT-BE\\shopMT\\Views\\Shared\\_FeaturedProducts.cshtml",
+              "RelativeToolTip": "shopMT\\Views\\Shared\\_FeaturedProducts.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-15T02:28:18.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Hero.cshtml",
+              "DocumentMoniker": "C:\\Users\\MANh TUNG\\Downloads\\\u0110\u1ED3 \u00E1n- website b\u00E1n laptop\u0026linh ki\u1EC7n \u0111i\u1EC7n t\u1EED\\shopMT-BE\\shopMT\\Views\\Shared\\_Hero.cshtml",
+              "RelativeDocumentMoniker": "shopMT\\Views\\Shared\\_Hero.cshtml",
+              "ToolTip": "C:\\Users\\MANh TUNG\\Downloads\\\u0110\u1ED3 \u00E1n- website b\u00E1n laptop\u0026linh ki\u1EC7n \u0111i\u1EC7n t\u1EED\\shopMT-BE\\shopMT\\Views\\Shared\\_Hero.cshtml",
+              "RelativeToolTip": "shopMT\\Views\\Shared\\_Hero.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-02T16:50:45.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Footer.cshtml",
+              "DocumentMoniker": "C:\\Users\\MANh TUNG\\Downloads\\\u0110\u1ED3 \u00E1n- website b\u00E1n laptop\u0026linh ki\u1EC7n \u0111i\u1EC7n t\u1EED\\shopMT-BE\\shopMT\\Views\\Shared\\_Footer.cshtml",
+              "RelativeDocumentMoniker": "shopMT\\Views\\Shared\\_Footer.cshtml",
+              "ToolTip": "C:\\Users\\MANh TUNG\\Downloads\\\u0110\u1ED3 \u00E1n- website b\u00E1n laptop\u0026linh ki\u1EC7n \u0111i\u1EC7n t\u1EED\\shopMT-BE\\shopMT\\Views\\Shared\\_Footer.cshtml",
+              "RelativeToolTip": "shopMT\\Views\\Shared\\_Footer.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-31T09:15:11.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\MANh TUNG\\Downloads\\\u0110\u1ED3 \u00E1n- website b\u00E1n laptop\u0026linh ki\u1EC7n \u0111i\u1EC7n t\u1EED\\shopMT-BE\\shopMT\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "shopMT\\Views\\Home\\Index.cshtml",
@@ -127,31 +199,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "_AdminModal.cshtml",
-              "DocumentMoniker": "C:\\Users\\MANh TUNG\\Downloads\\\u0110\u1ED3 \u00E1n- website b\u00E1n laptop\u0026linh ki\u1EC7n \u0111i\u1EC7n t\u1EED\\shopMT-BE\\shopMT\\Views\\Shared\\_AdminModal.cshtml",
-              "RelativeDocumentMoniker": "shopMT\\Views\\Shared\\_AdminModal.cshtml",
-              "ToolTip": "C:\\Users\\MANh TUNG\\Downloads\\\u0110\u1ED3 \u00E1n- website b\u00E1n laptop\u0026linh ki\u1EC7n \u0111i\u1EC7n t\u1EED\\shopMT-BE\\shopMT\\Views\\Shared\\_AdminModal.cshtml",
-              "RelativeToolTip": "shopMT\\Views\\Shared\\_AdminModal.cshtml",
-              "ViewState": "AgIAAHUAAAAAAAAAAAAIwJAAAABPAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "_Chatbot.cshtml",
+              "DocumentMoniker": "C:\\Users\\MANh TUNG\\Downloads\\\u0110\u1ED3 \u00E1n- website b\u00E1n laptop\u0026linh ki\u1EC7n \u0111i\u1EC7n t\u1EED\\shopMT-BE\\shopMT\\Views\\Shared\\_Chatbot.cshtml",
+              "RelativeDocumentMoniker": "shopMT\\Views\\Shared\\_Chatbot.cshtml",
+              "ToolTip": "C:\\Users\\MANh TUNG\\Downloads\\\u0110\u1ED3 \u00E1n- website b\u00E1n laptop\u0026linh ki\u1EC7n \u0111i\u1EC7n t\u1EED\\shopMT-BE\\shopMT\\Views\\Shared\\_Chatbot.cshtml",
+              "RelativeToolTip": "shopMT\\Views\\Shared\\_Chatbot.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-01T02:34:35.207Z"
+              "WhenOpened": "2025-08-01T01:44:16.938Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\MANh TUNG\\Downloads\\\u0110\u1ED3 \u00E1n- website b\u00E1n laptop\u0026linh ki\u1EC7n \u0111i\u1EC7n t\u1EED\\shopMT-BE\\shopMT\\appsettings.json",
-              "RelativeDocumentMoniker": "shopMT\\appsettings.json",
-              "ToolTip": "C:\\Users\\MANh TUNG\\Downloads\\\u0110\u1ED3 \u00E1n- website b\u00E1n laptop\u0026linh ki\u1EC7n \u0111i\u1EC7n t\u1EED\\shopMT-BE\\shopMT\\appsettings.json",
-              "RelativeToolTip": "shopMT\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-31T09:34:03.655Z"
+              "DocumentIndex": 3,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\MANh TUNG\\Downloads\\\u0110\u1ED3 \u00E1n- website b\u00E1n laptop\u0026linh ki\u1EC7n \u0111i\u1EC7n t\u1EED\\shopMT-BE\\shopMT\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "shopMT\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\MANh TUNG\\Downloads\\\u0110\u1ED3 \u00E1n- website b\u00E1n laptop\u0026linh ki\u1EC7n \u0111i\u1EC7n t\u1EED\\shopMT-BE\\shopMT\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "shopMT\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAABEHAAAAAAAAAAAAABYHAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-07-31T09:16:36.204Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\Users\\MANh TUNG\\Downloads\\\u0110\u1ED3 \u00E1n- website b\u00E1n laptop\u0026linh ki\u1EC7n \u0111i\u1EC7n t\u1EED\\shopMT-BE\\shopMT\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "shopMT\\Views\\Home\\Privacy.cshtml",
@@ -159,11 +232,25 @@
               "RelativeToolTip": "shopMT\\Views\\Home\\Privacy.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-01T01:44:12.553Z"
+              "WhenOpened": "2025-08-01T01:44:12.553Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 0,
+              "Title": "_AdminModal.cshtml",
+              "DocumentMoniker": "C:\\Users\\MANh TUNG\\Downloads\\\u0110\u1ED3 \u00E1n- website b\u00E1n laptop\u0026linh ki\u1EC7n \u0111i\u1EC7n t\u1EED\\shopMT-BE\\shopMT\\Views\\Shared\\_AdminModal.cshtml",
+              "RelativeDocumentMoniker": "shopMT\\Views\\Shared\\_AdminModal.cshtml",
+              "ToolTip": "C:\\Users\\MANh TUNG\\Downloads\\\u0110\u1ED3 \u00E1n- website b\u00E1n laptop\u0026linh ki\u1EC7n \u0111i\u1EC7n t\u1EED\\shopMT-BE\\shopMT\\Views\\Shared\\_AdminModal.cshtml",
+              "RelativeToolTip": "shopMT\\Views\\Shared\\_AdminModal.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAIwJMAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-01T02:34:35.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\MANh TUNG\\Downloads\\\u0110\u1ED3 \u00E1n- website b\u00E1n laptop\u0026linh ki\u1EC7n \u0111i\u1EC7n t\u1EED\\shopMT-BE\\shopMT\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "shopMT\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -175,71 +262,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_Modals.cshtml",
-              "DocumentMoniker": "C:\\Users\\MANh TUNG\\Downloads\\\u0110\u1ED3 \u00E1n- website b\u00E1n laptop\u0026linh ki\u1EC7n \u0111i\u1EC7n t\u1EED\\shopMT-BE\\shopMT\\Views\\Shared\\_Modals.cshtml",
-              "RelativeDocumentMoniker": "shopMT\\Views\\Shared\\_Modals.cshtml",
-              "ToolTip": "C:\\Users\\MANh TUNG\\Downloads\\\u0110\u1ED3 \u00E1n- website b\u00E1n laptop\u0026linh ki\u1EC7n \u0111i\u1EC7n t\u1EED\\shopMT-BE\\shopMT\\Views\\Shared\\_Modals.cshtml",
-              "RelativeToolTip": "shopMT\\Views\\Shared\\_Modals.cshtml",
-              "ViewState": "AgIAAPsAAAAAAAAAAAAAACUBAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-31T07:44:48.946Z",
-              "EditorCaption": ""
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\MANh TUNG\\Downloads\\\u0110\u1ED3 \u00E1n- website b\u00E1n laptop\u0026linh ki\u1EC7n \u0111i\u1EC7n t\u1EED\\shopMT-BE\\shopMT\\appsettings.json",
+              "RelativeDocumentMoniker": "shopMT\\appsettings.json",
+              "ToolTip": "C:\\Users\\MANh TUNG\\Downloads\\\u0110\u1ED3 \u00E1n- website b\u00E1n laptop\u0026linh ki\u1EC7n \u0111i\u1EC7n t\u1EED\\shopMT-BE\\shopMT\\appsettings.json",
+              "RelativeToolTip": "shopMT\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-31T09:34:03.655Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\MANh TUNG\\Downloads\\\u0110\u1ED3 \u00E1n- website b\u00E1n laptop\u0026linh ki\u1EC7n \u0111i\u1EC7n t\u1EED\\shopMT-BE\\shopMT\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "shopMT\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\MANh TUNG\\Downloads\\\u0110\u1ED3 \u00E1n- website b\u00E1n laptop\u0026linh ki\u1EC7n \u0111i\u1EC7n t\u1EED\\shopMT-BE\\shopMT\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "shopMT\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-31T09:19:22.827Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_AllProducts.cshtml",
-              "DocumentMoniker": "C:\\Users\\MANh TUNG\\Downloads\\\u0110\u1ED3 \u00E1n- website b\u00E1n laptop\u0026linh ki\u1EC7n \u0111i\u1EC7n t\u1EED\\shopMT-BE\\shopMT\\Views\\Shared\\_AllProducts.cshtml",
-              "RelativeDocumentMoniker": "shopMT\\Views\\Shared\\_AllProducts.cshtml",
-              "ToolTip": "C:\\Users\\MANh TUNG\\Downloads\\\u0110\u1ED3 \u00E1n- website b\u00E1n laptop\u0026linh ki\u1EC7n \u0111i\u1EC7n t\u1EED\\shopMT-BE\\shopMT\\Views\\Shared\\_AllProducts.cshtml",
-              "RelativeToolTip": "shopMT\\Views\\Shared\\_AllProducts.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAABQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-01T01:40:49.146Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_FeaturedProducts.cshtml",
-              "DocumentMoniker": "C:\\Users\\MANh TUNG\\Downloads\\\u0110\u1ED3 \u00E1n- website b\u00E1n laptop\u0026linh ki\u1EC7n \u0111i\u1EC7n t\u1EED\\shopMT-BE\\shopMT\\Views\\Shared\\_FeaturedProducts.cshtml",
-              "RelativeDocumentMoniker": "shopMT\\Views\\Shared\\_FeaturedProducts.cshtml",
-              "ToolTip": "C:\\Users\\MANh TUNG\\Downloads\\\u0110\u1ED3 \u00E1n- website b\u00E1n laptop\u0026linh ki\u1EC7n \u0111i\u1EC7n t\u1EED\\shopMT-BE\\shopMT\\Views\\Shared\\_FeaturedProducts.cshtml",
-              "RelativeToolTip": "shopMT\\Views\\Shared\\_FeaturedProducts.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-15T02:28:18.503Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_Hero.cshtml",
-              "DocumentMoniker": "C:\\Users\\MANh TUNG\\Downloads\\\u0110\u1ED3 \u00E1n- website b\u00E1n laptop\u0026linh ki\u1EC7n \u0111i\u1EC7n t\u1EED\\shopMT-BE\\shopMT\\Views\\Shared\\_Hero.cshtml",
-              "RelativeDocumentMoniker": "shopMT\\Views\\Shared\\_Hero.cshtml",
-              "ToolTip": "C:\\Users\\MANh TUNG\\Downloads\\\u0110\u1ED3 \u00E1n- website b\u00E1n laptop\u0026linh ki\u1EC7n \u0111i\u1EC7n t\u1EED\\shopMT-BE\\shopMT\\Views\\Shared\\_Hero.cshtml",
-              "RelativeToolTip": "shopMT\\Views\\Shared\\_Hero.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-02T16:50:45.654Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
               "Title": "_Vochers.cshtml",
               "DocumentMoniker": "C:\\Users\\MANh TUNG\\Downloads\\\u0110\u1ED3 \u00E1n- website b\u00E1n laptop\u0026linh ki\u1EC7n \u0111i\u1EC7n t\u1EED\\shopMT-BE\\shopMT\\Views\\Shared\\_Vochers.cshtml",
               "RelativeDocumentMoniker": "shopMT\\Views\\Shared\\_Vochers.cshtml",
@@ -251,19 +286,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "_Chatbot.cshtml",
-              "DocumentMoniker": "C:\\Users\\MANh TUNG\\Downloads\\\u0110\u1ED3 \u00E1n- website b\u00E1n laptop\u0026linh ki\u1EC7n \u0111i\u1EC7n t\u1EED\\shopMT-BE\\shopMT\\Views\\Shared\\_Chatbot.cshtml",
-              "RelativeDocumentMoniker": "shopMT\\Views\\Shared\\_Chatbot.cshtml",
-              "ToolTip": "C:\\Users\\MANh TUNG\\Downloads\\\u0110\u1ED3 \u00E1n- website b\u00E1n laptop\u0026linh ki\u1EC7n \u0111i\u1EC7n t\u1EED\\shopMT-BE\\shopMT\\Views\\Shared\\_Chatbot.cshtml",
-              "RelativeToolTip": "shopMT\\Views\\Shared\\_Chatbot.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-01T01:44:16.938Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "_CartModal.cshtml",
               "DocumentMoniker": "C:\\Users\\MANh TUNG\\Downloads\\\u0110\u1ED3 \u00E1n- website b\u00E1n laptop\u0026linh ki\u1EC7n \u0111i\u1EC7n t\u1EED\\shopMT-BE\\shopMT\\Views\\Shared\\_CartModal.cshtml",
               "RelativeDocumentMoniker": "shopMT\\Views\\Shared\\_CartModal.cshtml",
@@ -275,7 +298,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "_FlashSale.cshtml",
               "DocumentMoniker": "C:\\Users\\MANh TUNG\\Downloads\\\u0110\u1ED3 \u00E1n- website b\u00E1n laptop\u0026linh ki\u1EC7n \u0111i\u1EC7n t\u1EED\\shopMT-BE\\shopMT\\Views\\Shared\\_FlashSale.cshtml",
               "RelativeDocumentMoniker": "shopMT\\Views\\Shared\\_FlashSale.cshtml",
@@ -287,7 +310,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "_Header.cshtml",
               "DocumentMoniker": "C:\\Users\\MANh TUNG\\Downloads\\\u0110\u1ED3 \u00E1n- website b\u00E1n laptop\u0026linh ki\u1EC7n \u0111i\u1EC7n t\u1EED\\shopMT-BE\\shopMT\\Views\\Shared\\_Header.cshtml",
               "RelativeDocumentMoniker": "shopMT\\Views\\Shared\\_Header.cshtml",
@@ -299,19 +322,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "_Footer.cshtml",
-              "DocumentMoniker": "C:\\Users\\MANh TUNG\\Downloads\\\u0110\u1ED3 \u00E1n- website b\u00E1n laptop\u0026linh ki\u1EC7n \u0111i\u1EC7n t\u1EED\\shopMT-BE\\shopMT\\Views\\Shared\\_Footer.cshtml",
-              "RelativeDocumentMoniker": "shopMT\\Views\\Shared\\_Footer.cshtml",
-              "ToolTip": "C:\\Users\\MANh TUNG\\Downloads\\\u0110\u1ED3 \u00E1n- website b\u00E1n laptop\u0026linh ki\u1EC7n \u0111i\u1EC7n t\u1EED\\shopMT-BE\\shopMT\\Views\\Shared\\_Footer.cshtml",
-              "RelativeToolTip": "shopMT\\Views\\Shared\\_Footer.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-31T09:15:11.174Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "_CustomerSupport.cshtml",
               "DocumentMoniker": "C:\\Users\\MANh TUNG\\Downloads\\\u0110\u1ED3 \u00E1n- website b\u00E1n laptop\u0026linh ki\u1EC7n \u0111i\u1EC7n t\u1EED\\shopMT-BE\\shopMT\\Views\\Shared\\_CustomerSupport.cshtml",
               "RelativeDocumentMoniker": "shopMT\\Views\\Shared\\_CustomerSupport.cshtml",
@@ -323,7 +334,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\MANh TUNG\\AppData\\Local\\Temp\\.vsdbgsrc\\5076c320152ea29303eeaa091953c1c9a6c380a21ba94d35ee634baaa705e42c\\Program.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\5076c320152ea29303eeaa091953c1c9a6c380a21ba94d35ee634baaa705e42c\\Program.cs",
@@ -333,18 +344,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-18T04:37:29.154Z",
               "EditorCaption": " [Read Only]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\MANh TUNG\\Downloads\\\u0110\u1ED3 \u00E1n- website b\u00E1n laptop\u0026linh ki\u1EC7n \u0111i\u1EC7n t\u1EED\\shopMT-BE\\shopMT\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "shopMT\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\MANh TUNG\\Downloads\\\u0110\u1ED3 \u00E1n- website b\u00E1n laptop\u0026linh ki\u1EC7n \u0111i\u1EC7n t\u1EED\\shopMT-BE\\shopMT\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "shopMT\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAN8BAAAAAAAAAAAWwOoBAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-07-31T09:16:36.204Z"
             },
             {
               "$type": "Document",

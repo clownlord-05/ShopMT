@@ -1785,7 +1785,47 @@ body {
 .hero-btn {
   text-decoration: none;
 }
-    .header {
-        position: relative;
-        top: auto;
+.header {
+    position: relative;
+    top: auto;
+}
+.product-info {
+    position: absolute;
+    padding: 0px 4px;
+    margin-left: 450px;
+    padding-bottom: 20px;
+}
+.chatbot-footer {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+    background: #f9f9f9;
+}
+
+.chat-btn {
+    flex: 1;
+    padding: 8px 10px;
+    border: none;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.zalo-btn {
+    background: #0068ff;
+}
+
+    .zalo-btn:hover {
+        background: #004ecc;
     }
+
+.messenger-btn {
+    background: #0084ff;
+}
+
+.messenger-btn:hover {
+   background: #006bbd;
+ }
